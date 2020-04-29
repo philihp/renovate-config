@@ -1,0 +1,43 @@
+{
+  "name": "@philihp/renovate-config",
+  "description": "Renovate configs without the noise",
+  "version": "0.0.1",
+  "author": "Philihp Busby <philihp@gmail.com>",
+  "homepage": "https://github.com/philihp/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/philihp/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philihp/renovate-config/issues"
+  },
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "packageRules": [
+        {
+          "updateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest"
+          ],
+          "automerge": true
+        },
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "automerge": true
+        }
+      ]
+    }
+  }
+}
