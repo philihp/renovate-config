@@ -1,7 +1,7 @@
 {
   "name": "@philihp/renovate-config",
   "description": "Renovate configs without the noise",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Philihp Busby <philihp@gmail.com>",
   "homepage": "https://github.com/philihp/renovate-config",
   "repository": {
