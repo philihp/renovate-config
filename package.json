@@ -1,7 +1,7 @@
 {
   "name": "@philihp/renovate-config",
   "description": "Renovate configs without the noise",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Philihp Busby <philihp@gmail.com>",
   "homepage": "https://github.com/philihp/renovate-config",
   "repository": {
@@ -21,7 +21,9 @@
       "extends": [
         "config:base"
       ],
-      "schedule": ["every weekend"],
+      "schedule": [
+        "every weekend"
+      ],
       "dependencyDashboard": true,
       "dependencyDashboardTitle": "Independency Dashboard",
       "transitiveRemediation": true,
