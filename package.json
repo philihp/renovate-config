@@ -29,6 +29,9 @@
       "transitiveRemediation": true,
       "packageRules": [
         {
+          "semanticCommits": "enabled"
+        },
+        {
           "updateTypes": [
             "minor",
             "patch",
